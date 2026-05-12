@@ -7,7 +7,7 @@
 | Участник   | Роль           | Ветка            | Основные функции                                    |
 | ---------- | -------------- | ---------------- | --------------------------------------------------- |
 | Иванов А.  | Тимлид         | main             | Архитектура, интеграция, мерж, README               |
-| Петрова М. | Аналитик       | feature/analyzer | clean_text, `get_word_frequency`, `count_sentences` |
+| Петрова М. | Аналитик       | feature/analyzer | clean_text, get_word_frequency, count_sentences |
 | Сидоров К. | UI/Тестировщик | feature/ui       | print_header, get_user_input, format_results        |
 
 ## Как запустить проект
@@ -36,6 +36,6 @@ project/
 
 └── modules/ # собственные модули команды
 
-   ├── text_processor.py
+\n ├── text_processor.py
 
-   └── menu_ui.py
+\n └── menu_ui.py
