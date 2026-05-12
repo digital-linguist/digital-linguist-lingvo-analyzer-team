@@ -28,8 +28,13 @@
 
 project/
 ├── README.md # описание, как запустить
+
 ├── requirements.txt # зависимости (пустой, практика работы с pip)
+
 ├── main.py # точка входа
+
 └── modules/ # собственные модули команды
+
 ├── text_processor.py
+
 └── menu_ui.py
