@@ -36,6 +36,6 @@ project/
 
 └── modules/ # собственные модули команды
 
-\n ├── text_processor.py
+   ├── text_processor.py
 
-\n └── menu_ui.py
+   └── menu_ui.py
