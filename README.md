@@ -34,8 +34,8 @@ project/
 
 ├── main.py # точка входа
 
-├── modules/ # собственные модули команды
+└── modules/ # собственные модули команды
 
-├── text_processor.py
+   ├── text_processor.py
 
-└── menu_ui.py
+   └── menu_ui.py
