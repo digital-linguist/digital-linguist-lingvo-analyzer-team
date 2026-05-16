@@ -12,12 +12,21 @@
 
 ## Как запустить проект
 
-1. Склонируйте репозиторий: git clone <url>
-2. Создайте виртуальное окружение: python -m venv .venv
-3. Активируйте:
+1. Склонируйте репозиторий:
+```bash
+git clone <url>
+3. Создайте виртуальное окружение:
+```bash
+python -m venv .venv
+4. Активируйте:
+```bash
 source .venv/bin/activate (Linux/macOS) или .venv\Scripts\activate (Windows)
-6. Установите зависимости: pip install -r requirements.txt
-7. Запустите: python main.py
+6. Установите зависимости:
+```bash
+pip install -r requirements.txt
+7. Запустите:
+```bash
+python main.py
 
 ## Технологии и модули
 
