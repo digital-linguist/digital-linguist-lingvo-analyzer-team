@@ -14,9 +14,10 @@
 
 1. Склонируйте репозиторий: git clone <url>
 2. Создайте виртуальное окружение: python -m venv .venv
-3. Активируйте: source .venv/bin/activate (Linux/macOS) или .venv\Scripts\activate (Windows)
-4. Установите зависимости: pip install -r requirements.txt
-5. Запустите: python main.py
+3. Активируйте:
+source .venv/bin/activate (Linux/macOS) или .venv\Scripts\activate (Windows)
+6. Установите зависимости: pip install -r requirements.txt
+7. Запустите: python main.py
 
 ## Технологии и модули
 
@@ -25,17 +26,11 @@
 - Без сторонних NLP-библиотек
 
 ## Структура репозитория
-
+```text
 project/
-
 ├── README.md # описание, как запустить
-
 ├── requirements.txt # зависимости (пустой, практика работы с pip)
-
 ├── main.py # точка входа
-
 └── modules/ # собственные модули команды
-
    ├── text_processor.py
-
    └── menu_ui.py
